@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{780850EF-61FD-4770-BC25-F230DB8B1871}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="NowMDdemo" Key="{CA2522E0-603E-40AC-9380-577E093D2DA8}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="NowMDdemo" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formUserLogin" Key="{B8153A6C-1FB2-4E4C-BE59-BAF87F2865CA}">
+								<Image FileName="-1328299460" Left="0" Top="0" Right="1366" Bottom="768" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TformUserLogin" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="formUserLogin" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelMain" Key="{A30E2765-7FDC-4F37-A37F-86B0B8A8212E}">
+										<Image FileName="-1328299460" Left="0" Top="0" Right="1366" Bottom="768" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="panelMain" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelLogin" Key="{2737C8B4-788C-4533-9025-5866D779EDA3}">
+												<Image FileName="-1328299460" Left="442" Top="279" Right="923" Bottom="489" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzPanel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="panelLogin" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="edLoginName" Key="{50AE6EBA-8F66-4586-B810-8071B309A6AD}">
+														<Image FileName="-1328299460" Left="653" Top="345" Right="774" Bottom="366" />
+														<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzEdit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="edLoginName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="edPassword" Key="{D7E680C9-5F07-46FD-AD5C-F5482E80164B}">
+														<Image FileName="1823287872" Left="653" Top="373" Right="774" Bottom="394" />
+														<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzEdit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="edPassword" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnLogin" Key="{0DCCB2DE-03BD-4A52-B0E4-41C3FD3A87EE}">
+														<Image FileName="974100334" Left="805" Top="426" Right="916" Bottom="451" />
+														<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzBitBtn" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="btnLogin" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Object_DB_B" Key="{5F8D7989-C7B8-4CB0-80EF-19A7F244CE24}" Description="takes to the object db">
+														<TypeInfo Item0="{CBD09D55-FC32-4D92-825D-D37FBA9F7841}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzBitBtn" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="btnSwitchDB" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Exit_btn" Key="{BE440BA6-F3AD-4A32-8E97-DFBF647CE860}" Description="exists the nowmd">
+														<TypeInfo Item0="{CBD09D55-FC32-4D92-825D-D37FBA9F7841}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzBitBtn" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="btnCancel" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="formMain" Key="{BD67B0C6-BF9F-4EE0-B6A5-E4808CC3792C}">
+								<Image FileName="-617417384" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{18286C09-326E-41D2-85E4-48548A9337F5}" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TformMain" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="formMain" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelNavagation" Key="{D0C246A2-26EE-478F-9DDC-FED7734C972D}">
+										<Image FileName="-654505278" Left="0" Top="23" Right="184" Bottom="709" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="panelNavagation" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NavPanel" Key="{7DB2E052-3175-486A-9956-AEEB458E02A6}">
+												<Image FileName="-654505278" Left="0" Top="71" Right="184" Bottom="709" />
+												<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TAdvNavBar" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="NavPanel" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="formPatientEntry" Key="{8D45D210-6BC8-4998-BFC5-F95C408597A9}">
+								<Image FileName="112210220" Left="0" Top="0" Right="732" Bottom="630" />
+								<TypeInfo Item0="{471A0D5E-CD88-47D6-8F33-EE70BD97E423}" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TformPatientEntry" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="formPatientEntry" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelButtons" Key="{0B45C2F1-439E-4AD8-BC68-D378831272B2}">
+										<Image FileName="112210220" Left="630" Top="26" Right="729" Bottom="627" />
+										<TypeInfo Item0="{CBD09D55-FC32-4D92-825D-D37FBA9F7841}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="panelButtons" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnSave" Key="{21C1A6B8-114D-4F61-99F7-B60DB3319A2C}">
+												<Image FileName="112210220" Left="637" Top="46" Right="721" Bottom="71" />
+												<TypeInfo Item0="{CBD09D55-FC32-4D92-825D-D37FBA9F7841}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzBitBtn" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="btnSave" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelFields" Key="{E4E7EB33-2CF8-454F-946B-2520492FC857}">
+										<Image FileName="-874006873" Left="3" Top="26" Right="630" Bottom="627" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="panelFields" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="PageControl" Key="{A407BCEE-5A30-4D08-AECE-0D852F7EA1A7}">
+												<Image FileName="-874006873" Left="3" Top="26" Right="630" Bottom="627" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzPageControl" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="PageControl" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="tsAddress" Key="{E0645045-AF49-4B53-B63A-4DE00450766C}">
+														<Image FileName="-874006873" Left="3" Top="49" Right="630" Bottom="627" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzTabSheet" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="tsAddress" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelName" Key="{13915B56-FC57-4EE4-B162-E2E0AA0973E4}">
+																<Image FileName="-874006873" Left="3" Top="49" Right="630" Bottom="627" />
+																<Properties>
+																	<Property Name="ClassName">
+																		<Value Value="TRzPanel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="panelName" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="gbName" Key="{BA0E89EE-76F5-4CF3-8215-C6110BCACE38}">
+																		<Image FileName="-874006873" Left="3" Top="117" Right="630" Bottom="465" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value Value="TRzGroupBox" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="gbName" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="edFirstName" Key="{83A32EAD-EB43-44BE-9541-3DC30B4A71E2}">
+																				<Image FileName="-874006873" Left="160" Top="145" Right="306" Bottom="166" />
+																				<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value Value="TwwDBEdit" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="edFirstName" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="edMiddleName" Key="{E44CCD5B-ECFF-44C2-8E76-8319463B84F9}">
+																				<Image FileName="-789522995" Left="160" Top="168" Right="306" Bottom="189" />
+																				<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value Value="TwwDBEdit" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="edMiddleName" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="edLastName" Key="{50C2BD59-1620-427E-B545-86511025C759}">
+																				<Image FileName="1689353611" Left="160" Top="191" Right="306" Bottom="212" />
+																				<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value Value="TwwDBEdit" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="edLastName" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="framePatientAddress" Key="{58023F63-CEDC-482F-9DA5-73649A6BE578}">
+																				<Image FileName="-1740930509" Left="70" Top="247" Right="390" Bottom="366" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value Value="TframeAddress" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="framePatientAddress" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="edStreet1" Key="{44A70BE6-31D8-4DD9-8572-802105B70359}">
+																						<Image FileName="-1740930509" Left="160" Top="250" Right="386" Bottom="271" />
+																						<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																						<Properties>
+																							<Property Name="ClassName">
+																								<Value Value="TwwDBEdit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="edStreet1" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="edStreet2" Key="{CD3FE264-69BD-405F-BA3B-046DF7D3BC60}">
+																						<Image FileName="-1690736093" Left="160" Top="273" Right="386" Bottom="294" />
+																						<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																						<Properties>
+																							<Property Name="ClassName">
+																								<Value Value="TwwDBEdit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="edStreet2" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="edPostalCode" Key="{C323549C-C85C-4A48-9894-35DF248C061C}">
+																						<Image FileName="1510174066" Left="160" Top="342" Right="237" Bottom="363" />
+																						<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																						<Properties>
+																							<Property Name="ClassName">
+																								<Value Value="TwwDBEdit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="edPostalCode" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="edEmail" Key="{9AB2E3BC-5E38-4C56-BEAB-569FE7C90FE7}">
+																				<Image FileName="2051051753" Left="160" Top="371" Right="366" Bottom="392" />
+																				<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value Value="TwwDBEdit" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="edEmail" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="edEmergencyPhone" Key="{D360CE23-714C-4FE6-9993-16102BE141D9}">
+																				<Image FileName="-785201220" Left="160" Top="440" Right="297" Bottom="461" />
+																				<TypeInfo Item0="{28D67B2A-93A9-4B58-955D-B166654A76D7}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value Value="TwwDBEdit" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="edEmergencyPhone" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="formSubCenter" Key="{9A3FA9D2-B14D-49D7-8A91-662CB8946071}">
+								<Image FileName="-623572647" Left="0" Top="0" Right="828" Bottom="430" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TformSubCenter" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="formSubCenter" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sbNew" Key="{BB7E0A7F-08FA-4826-9B21-2A3ED9A63F9C}">
+										<Image FileName="-623572647" Left="19" Top="77" Right="136" Bottom="95" />
+										<TypeInfo Item0="{B9D1607F-2962-4661-9CAF-A35EB09D596D}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzToolButton" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="sbNew" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="NowMDdemo" Owner="{CA2522E0-603E-40AC-9380-577E093D2DA8}">
+			<Child Name="formUserLogin" Owner="{B8153A6C-1FB2-4E4C-BE59-BAF87F2865CA}">
+				<Child Name="panelMain" Owner="{A30E2765-7FDC-4F37-A37F-86B0B8A8212E}">
+					<Child Name="panelLogin" Owner="{2737C8B4-788C-4533-9025-5866D779EDA3}">
+						<Child Name="edLoginName" Owner="{50AE6EBA-8F66-4586-B810-8071B309A6AD}" />
+						<Child Name="edPassword" Owner="{D7E680C9-5F07-46FD-AD5C-F5482E80164B}" />
+						<Child Name="btnLogin" Owner="{0DCCB2DE-03BD-4A52-B0E4-41C3FD3A87EE}" />
+						<Child Name="Object_DB_B" Owner="{5F8D7989-C7B8-4CB0-80EF-19A7F244CE24}" />
+						<Child Name="Exit_btn" Owner="{BE440BA6-F3AD-4A32-8E97-DFBF647CE860}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="formMain" Owner="{BD67B0C6-BF9F-4EE0-B6A5-E4808CC3792C}">
+				<Child Name="panelNavagation" Owner="{D0C246A2-26EE-478F-9DDC-FED7734C972D}">
+					<Child Name="NavPanel" Owner="{7DB2E052-3175-486A-9956-AEEB458E02A6}" />
+				</Child>
+			</Child>
+			<Child Name="formPatientEntry" Owner="{8D45D210-6BC8-4998-BFC5-F95C408597A9}">
+				<Child Name="panelButtons" Owner="{0B45C2F1-439E-4AD8-BC68-D378831272B2}">
+					<Child Name="btnSave" Owner="{21C1A6B8-114D-4F61-99F7-B60DB3319A2C}" />
+				</Child>
+				<Child Name="panelFields" Owner="{E4E7EB33-2CF8-454F-946B-2520492FC857}">
+					<Child Name="PageControl" Owner="{A407BCEE-5A30-4D08-AECE-0D852F7EA1A7}">
+						<Child Name="tsAddress" Owner="{E0645045-AF49-4B53-B63A-4DE00450766C}">
+							<Child Name="panelName" Owner="{13915B56-FC57-4EE4-B162-E2E0AA0973E4}">
+								<Child Name="gbName" Owner="{BA0E89EE-76F5-4CF3-8215-C6110BCACE38}">
+									<Child Name="edFirstName" Owner="{83A32EAD-EB43-44BE-9541-3DC30B4A71E2}" />
+									<Child Name="edMiddleName" Owner="{E44CCD5B-ECFF-44C2-8E76-8319463B84F9}" />
+									<Child Name="edLastName" Owner="{50C2BD59-1620-427E-B545-86511025C759}" />
+									<Child Name="framePatientAddress" Owner="{58023F63-CEDC-482F-9DA5-73649A6BE578}">
+										<Child Name="edStreet1" Owner="{44A70BE6-31D8-4DD9-8572-802105B70359}" />
+										<Child Name="edStreet2" Owner="{CD3FE264-69BD-405F-BA3B-046DF7D3BC60}" />
+										<Child Name="edPostalCode" Owner="{C323549C-C85C-4A48-9894-35DF248C061C}" />
+									</Child>
+									<Child Name="edEmail" Owner="{9AB2E3BC-5E38-4C56-BEAB-569FE7C90FE7}" />
+									<Child Name="edEmergencyPhone" Owner="{D360CE23-714C-4FE6-9993-16102BE141D9}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="formSubCenter" Owner="{9A3FA9D2-B14D-49D7-8A91-662CB8946071}">
+				<Child Name="sbNew" Owner="{BB7E0A7F-08FA-4826-9B21-2A3ED9A63F9C}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

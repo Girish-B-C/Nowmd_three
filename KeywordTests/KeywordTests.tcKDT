@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Test1" key="{5E0178EC-005F-43FF-BD7D-DF1A31B360D0}" path="Test1.tcKDTest" />
+		<child name="Login_exit" key="{8ABF5035-571C-4AEC-9754-8352EEF9022C}" path="Login_exit.tcKDTest" />
+		<child name="Create_patients" key="{DAAC7046-2625-4AFA-9475-7233B24C5691}" path="Create_patients.tcKDTest" />
+		<child name="New_Login" key="{F39D3388-85D1-4375-82D3-4FE50E876661}" path="New_Login.tcKDTest" />
+	</children>
+</Root>
